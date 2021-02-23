@@ -1,0 +1,32 @@
+.information{
+	background: $hover-clr;
+	height: 240px;
+	ol{
+		padding-top: 100px;
+		padding-bottom: 100px;
+		display: flex;
+		justify-content: space-between;
+		li{
+			display: inline-block;
+			height: 40px;
+			margin-right: 70px; 
+			.icon{
+				float: left;
+				margin-right: 27px;
+			}
+			.info{
+				float: left;
+				h4{
+					font: $footer-title;
+					color: $white;
+					padding-bottom: 3px;
+				}
+				p{
+					font: $button-font;
+					color: $white;
+					text-transform: uppercase;
+				}
+			}
+		}
+	}
+}

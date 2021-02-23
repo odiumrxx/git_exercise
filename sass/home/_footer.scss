@@ -1,0 +1,40 @@
+footer{
+	background: $foot;
+	.foot{
+		display: flex;
+		justify-content: space-around;
+		a, p{
+			font: $footer-page;
+			color: $page-clr;
+			text-decoration: none;
+		}
+		.rights, .contact, .links, .more, .social{
+			padding-top: 100px;
+			padding-bottom: 100px;
+			margin-left: 125px;
+		}
+		.rights {
+			h4{
+				font: $footer-title;
+				color: $white; 
+			}
+			p{
+				padding-top: 30px;
+			}
+		}
+		.contact{
+			margin-left: 245px; 
+		}
+		.links{
+			margin-left: 145px;
+		}
+		.more{
+			margin-left: 60px;
+		}
+		.social{
+			margin-left: 85px;
+			margin-right: 125px; 
+		}
+
+	}
+}

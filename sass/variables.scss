@@ -1,0 +1,22 @@
+$nav-link: 500 12px 'Montserrat', sans-serif;
+$text-title: 500 38px 'Montserrat', sans-serif;
+$text-desc: 18px 'Nunito Sans', sans-serif;
+$footer-page: 15px 'Nunito Sans', sans-serif;
+$footer-title: 500 18px 'Montserrat', sans-serif;
+$button-font: 500 12px 'Montserrat', sans-serif;
+$stat-title: 500 30px 'Montserrat', sans-serif;
+$nav-clr: #412727;
+$hover-clr: #10c9c3;
+$desc-clr: #787878;
+$foot: #141414;
+$page-clr: #bcbcbc;
+$white: #ffffff;
+$gain:	#d8d8d8;
+$grey-clr: #8e8e8e;
+$eclipse: #3e3e3e;
+$center: 0 auto;
+
+@function lighter($color, $tone) {
+  $adjust: 16*$tone;
+  @return adjust-color($color, $red: $adjust, $green: $adjust, $blue: $adjust);
+}

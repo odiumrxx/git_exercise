@@ -1,0 +1,36 @@
+.stats{
+	width: 100%;
+	.skills{
+		padding-top: 250px;
+		padding-bottom: 144px;
+		h1{
+		font:$stat-title;
+		padding-bottom: 40px;
+		}
+		h4{
+			font: $nav-link;
+			text-transform: uppercase;
+			padding-bottom: 20px;
+		}
+		.bar{
+			width: 	500px;
+			height: 3px;
+			background:  $gain;
+			margin-bottom: 20px;
+			.bar-color{
+				background: $hover-clr;
+				height: 3px;
+			}
+			#st{
+				width: 75%;
+			}
+			#nd{
+				width: 90%;
+			}
+			#rd{
+				width: 65%;
+			}
+		}
+	}
+	
+}

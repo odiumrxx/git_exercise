@@ -1,0 +1,133 @@
+@charset "UTF-8";
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+
+body { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+blockquote, q { quotes: none; }
+
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+.wrapper { max-width: 1366px; margin: 0 auto; }
+
+.clear { clear: both; }
+
+.head { width: 100%; height: 100px; }
+.head .logo { padding-top: 40px; padding-bottom: 40px; float: left; }
+.head nav { float: right; }
+.head nav ol { list-style: none; }
+.head nav ol li { display: inline-block; padding: 45px 15px; }
+.head nav ol li a { text-decoration: none; font: 500 12px "Montserrat", sans-serif; text-transform: uppercase; color: #412727; }
+.head nav ol li a:hover { color: #10c9c3; }
+.head nav ol #first { padding-left: 0; }
+.head nav ol #last { padding-right: 0; }
+
+.text { width: 570px; margin: 0 auto; }
+.text h1 { padding-top: 105px; font: 500 38px "Montserrat", sans-serif; text-align: center; }
+.text p { padding-top: 40px; font: 18px "Nunito Sans", sans-serif; line-height: 1.5; text-align: center; color: #787878; }
+
+.work { margin-top: 100px; }
+.work .row { width: 1360px; height: 300px; margin: 0 auto; }
+.work .row .cell { width: 340px; height: 100%; float: left; position: relative; }
+.work .load h4 { font: 500 12px "Montserrat", sans-serif; color: #8e8e8e; padding-top: 40px; padding-bottom: 40px; text-align: center; text-transform: uppercase; }
+
+.two-row { margin: 0; }
+
+.wrap { height: 100%; position: relative; }
+.wrap .product-wrap { position: relative; }
+.wrap .product-wrap:after { content: ''; background: rgba(33, 191, 185, 0.5); position: absolute; left: 0; right: 0; bottom: 0; top: 0; opacity: 0; transform: scale(0.3); transition: .3s ease-in-out; }
+
+.border:hover .product-wrap:after { opacity: 1; transform: scale(1); }
+
+.product-wrap a { display: block; text-decoration: none; }
+
+.product-wrap img { display: block; }
+
+.loop-action { position: absolute; left: 50%; top: 50%; opacity: 0; transform: translate(-50%, -50%); transition: .3s ease-in-out; }
+
+.border:hover .loop-action { opacity: 1; }
+
+.loop-action a { text-decoration: none; display: block; white-space: nowrap; text-transform: uppercase; padding: .5em 1em; font-size: 14px; line-height: 1.6; outline: none; position: relative; overflow: hidden; text-align: center; color: white; margin: 5px auto; transition: .3s ease-in-out; }
+
+.loop-action a:hover { color: black; }
+
+.loop-action a:hover:after { left: 0%; }
+
+.border:hover { border-color: #4966A2; }
+
+.product-info { padding-top: 15px; }
+
+.stars { font-size: 14px; font-family: FontAwesome; }
+
+.stars:before { content: "\f005\f005\f005\f005\f123"; color: #F2453E; }
+
+.product-title { font-weight: normal; font-family: "Open Sans"; color: #162546; font-size: 18px; }
+
+.price { font-family: "Open Sans"; color: #162546; font-style: italic; font-weight: bold; }
+
+footer { background: #141414; }
+footer .foot { display: flex; justify-content: space-around; }
+footer .foot a, footer .foot p { font: 15px "Nunito Sans", sans-serif; color: #bcbcbc; text-decoration: none; }
+footer .foot .rights, footer .foot .contact, footer .foot .links, footer .foot .more, footer .foot .social { padding-top: 100px; padding-bottom: 100px; margin-left: 125px; }
+footer .foot .rights h4 { font: 500 18px "Montserrat", sans-serif; color: #ffffff; }
+footer .foot .rights p { padding-top: 30px; }
+footer .foot .contact { margin-left: 245px; }
+footer .foot .links { margin-left: 145px; }
+footer .foot .more { margin-left: 60px; }
+footer .foot .social { margin-left: 85px; margin-right: 125px; }
+
+.banner { height: 495px; background-image: url("../img/bg.png"); /* Путь к фоновому изображению */ }
+.banner .text { float: right; margin: 0; }
+.banner .text h1 { text-align: left; }
+.banner .text p { text-align: left; }
+.banner .text .button { padding-top: 40px; padding-bottom: 40px; margin: 0; text-align: left; }
+
+.button { margin-top: 40px; margin-bottom: 100px; text-align: center; }
+.button a { text-decoration: none; text-transform: uppercase; font: 500 12px "Montserrat", sans-serif; color: #ffffff; padding: 20px 45px; background: #10c9c3; }
+.button a:hover { background: #20d9d3; }
+
+.sign { width: 223px; padding-top: 40px; margin: 0 auto; }
+
+.stats { width: 100%; }
+.stats .skills { padding-top: 250px; padding-bottom: 144px; }
+.stats .skills h1 { font: 500 30px "Montserrat", sans-serif; padding-bottom: 40px; }
+.stats .skills h4 { font: 500 12px "Montserrat", sans-serif; text-transform: uppercase; padding-bottom: 20px; }
+.stats .skills .bar { width: 500px; height: 3px; background: #d8d8d8; margin-bottom: 20px; }
+.stats .skills .bar .bar-color { background: #10c9c3; height: 3px; }
+.stats .skills .bar #st { width: 75%; }
+.stats .skills .bar #nd { width: 90%; }
+.stats .skills .bar #rd { width: 65%; }
+
+.information { background: #10c9c3; height: 240px; }
+.information ol { padding-top: 100px; padding-bottom: 100px; display: flex; justify-content: space-between; }
+.information ol li { display: inline-block; height: 40px; margin-right: 70px; }
+.information ol li .icon { float: left; margin-right: 27px; }
+.information ol li .info { float: left; }
+.information ol li .info h4 { font: 500 18px "Montserrat", sans-serif; color: #ffffff; padding-bottom: 3px; }
+.information ol li .info p { font: 500 12px "Montserrat", sans-serif; color: #ffffff; text-transform: uppercase; }
+
+.services { width: 100%; height: 330px; margin-top: 140px; margin-bottom: 100px; }
+.services .row { width: 100%; height: 135px; display: flex; justify-content: space-around; margin-top: 60px; }
+.services .row .card { width: 230px; }
+.services .row .card .card-img { display: block; height: 40px; text-align: center; margin-bottom: 30px; }
+.services .row .card h4 { font: 500 12px "Montserrat", sans-serif; text-align: center; text-transform: uppercase; margin-bottom: 20px; }
+.services .row .card p { font: 15px "Nunito Sans", sans-serif; color: #787878; text-align: center; }
+
+.logos { display: flex; justify-content: space-between; padding-top: 65px; padding-bottom: 65px; }
+
+.about { background: #3e3e3e; padding-bottom: 120px; }
+.about h1 { color: #ffffff; }
+.about p { color: #ffffff; }
+
+.img-about { float: left; }
+
+.about-me { float: right; margin: 0; }
+.about-me h1 { text-align: left; }
+.about-me p { text-align: left; }
+.about-me .sign { margin: 0; padding-bottom: 140px; }

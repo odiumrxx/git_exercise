@@ -1,0 +1,34 @@
+.head{
+	width: 100%;
+	height: 100px;
+	.logo{
+		padding-top: 40px;
+		padding-bottom: 40px;
+		float: left;
+	}
+	nav{
+		float: right;
+		ol{
+			list-style: none;
+			li{
+				display: inline-block;
+				padding: 45px 15px;
+				a{
+					text-decoration: none;
+					font: $nav-link;
+					text-transform: uppercase;
+					color: $nav-clr;
+				}
+				a:hover{
+					color: $hover-clr;
+				}
+			}
+			#first{
+				padding-left: 0;
+			}
+			#last{
+				padding-right: 0;
+			}
+		}
+	}
+}

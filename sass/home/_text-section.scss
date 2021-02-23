@@ -1,0 +1,17 @@
+.text{
+	width: 570px;
+	margin: $center;
+	h1{
+		padding-top: 105px;
+		font: $text-title;
+		text-align: center; 
+	}
+	p{
+		padding-top: 40px; 
+		font: $text-desc;
+		line-height: 1.5;
+		text-align: center;
+		color: $desc-clr; 
+	}
+	
+}
